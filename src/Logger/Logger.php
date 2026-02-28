@@ -1,8 +1,8 @@
 <?php
 
-namespace Hoo\WoocommercePluginFramework\Logger;
+namespace Hoo\WooCommercePluginFramework\Logger;
 
-use Hoo\WordpressPluginFramework\Logger\LoggerInterface;
+use Hoo\WordPressPluginFramework\Logger\LoggerInterface;
 use WC_Logger_Interface;
 
 class Logger implements LoggerInterface
