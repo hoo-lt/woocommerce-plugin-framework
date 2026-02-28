@@ -12,19 +12,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/hoo-lt/wordpress-plugin-framework.git",
-                "reference": "af350714a62ac7a518e1ce9ce6b8c7a82f53d4c4"
+                "reference": "dfc185937325b8f4069453c0e4c1d6b0b504ef89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hoo-lt/wordpress-plugin-framework/zipball/af350714a62ac7a518e1ce9ce6b8c7a82f53d4c4",
-                "reference": "af350714a62ac7a518e1ce9ce6b8c7a82f53d4c4",
+                "url": "https://api.github.com/repos/hoo-lt/wordpress-plugin-framework/zipball/dfc185937325b8f4069453c0e4c1d6b0b504ef89",
+                "reference": "dfc185937325b8f4069453c0e4c1d6b0b504ef89",
                 "shasum": ""
             },
             "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Hoo\\WordpressPluginFramework\\": "src/"
+                    "Hoo\\WordPressPluginFramework\\": "src/"
                 }
             },
             "license": [
@@ -40,7 +40,7 @@
                 "source": "https://github.com/hoo-lt/wordpress-plugin-framework/tree/main",
                 "issues": "https://github.com/hoo-lt/wordpress-plugin-framework/issues"
             },
-            "time": "2026-02-28T17:33:32+00:00"
+            "time": "2026-02-28T17:42:24+00:00"
         }
     ],
     "packages-dev": [],
