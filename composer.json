@@ -1,0 +1,25 @@
+{
+	"name": "hoo-lt/woocommerce-plugin-framework",
+	"type": "library",
+	"license": "GPL-3.0",
+	"autoload": {
+		"psr-4": {
+			"Hoo\\WoocommercePluginFramework\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Baltic digital agency, UAB",
+			"email": "hoo@hoo.lt"
+		}
+	],
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/hoo-lt/wordpress-plugin-framework"
+		}
+	],
+	"require": {
+		"hoo-lt/wordpress-plugin-framework": "dev-main"
+	}
+}
