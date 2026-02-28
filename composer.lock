@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/hoo-lt/wordpress-plugin-framework.git",
-                "reference": "9791075bc0538b4367648a34170501741201e372"
+                "reference": "af350714a62ac7a518e1ce9ce6b8c7a82f53d4c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hoo-lt/wordpress-plugin-framework/zipball/9791075bc0538b4367648a34170501741201e372",
-                "reference": "9791075bc0538b4367648a34170501741201e372",
+                "url": "https://api.github.com/repos/hoo-lt/wordpress-plugin-framework/zipball/af350714a62ac7a518e1ce9ce6b8c7a82f53d4c4",
+                "reference": "af350714a62ac7a518e1ce9ce6b8c7a82f53d4c4",
                 "shasum": ""
             },
             "default-branch": true,
@@ -40,7 +40,7 @@
                 "source": "https://github.com/hoo-lt/wordpress-plugin-framework/tree/main",
                 "issues": "https://github.com/hoo-lt/wordpress-plugin-framework/issues"
             },
-            "time": "2026-02-28T16:44:51+00:00"
+            "time": "2026-02-28T17:33:32+00:00"
         }
     ],
     "packages-dev": [],
