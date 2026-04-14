@@ -1,8 +1,8 @@
 <?php
 
-namespace Hoo\WooCommercePluginFramework\Middleware\LogExecutionTime;
+namespace Hoo\WooCommercePluginFramework\Middlewares\LogExecutionTime;
 
-use Hoo\WordPressPluginFramework\Middleware\MiddlewareInterface;
+use Hoo\WordPressPluginFramework\Middlewares\MiddlewareInterface;
 use Hoo\WordPressPluginFramework\Logger\LoggerInterface;
 
 class Middleware implements MiddlewareInterface
