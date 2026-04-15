@@ -3,25 +3,23 @@
 namespace Hoo\WooCommercePluginFramework\Middlewares\LogExecutionTime;
 
 use Hoo\WordPressPluginFramework\Middlewares\MiddlewareInterface;
-use Hoo\WordPressPluginFramework\Logger\LoggerInterface;
+use Hoo\WordPressPluginFramework\Loggers\LoggerInterface;
 
-class Middleware implements MiddlewareInterface
+readonly class Middleware implements MiddlewareInterface
 {
 	public function __construct(
-		protected readonly LoggerInterface $logger,
+		protected LoggerInterface $logger,
 	) {
 	}
 
-	public function __invoke(object $object, callable $callable): mixed
+	public function __invoke(callable $callable): void
 	{
 		$startTime = microtime(true);
 
-		$result = $callable($object);
+		$callable();
 
 		$stopTime = microtime(true);
 
-		$this->logger->info(sprintf('Object: %s | Execution time: %d ms', $object::class, ($stopTime - $startTime) * 1000));
-
-		return $result;
+		$this->logger->info(sprintf('Execution time: %d ms', ($stopTime - $startTime) * 1000));
 	}
 }
