@@ -12,14 +12,16 @@ readonly class Middleware implements MiddlewareInterface
 	) {
 	}
 
-	public function __invoke(callable $callable): void
+	public function __invoke(callable $callable): mixed
 	{
 		$startTime = microtime(true);
 
-		$callable();
+		$result = $callable();
 
 		$stopTime = microtime(true);
 
 		$this->logger->info(sprintf('Execution time: %d ms', ($stopTime - $startTime) * 1000));
+
+		return $result;
 	}
 }
